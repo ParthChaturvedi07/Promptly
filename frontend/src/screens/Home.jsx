@@ -15,7 +15,7 @@ export const Home = () => {
     if (!token) {
       navigate("/login");
     }
-  }, [nav, token]);
+  }, [navigate, token]);
 
   const createProject = (e) => {
     e.preventDefault();
