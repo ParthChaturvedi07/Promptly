@@ -8,8 +8,14 @@ export const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [projectName, setProjectName] = useState("");
   const [project, setProject] = useState([]);
-
+  const token = localStorage.getItem("token");
   const navigate = useNavigate();
+  
+  useEffect(() => {
+    if (!token) {
+      nav("/login");
+    }
+  }, [nav, token]);
 
   const createProject = (e) => {
     e.preventDefault();
