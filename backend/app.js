@@ -18,7 +18,8 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "https://promptly-ai.onrender.com",
+    methods: "GET,POST,PUT,DELETE",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
   })
