@@ -13,7 +13,7 @@ export const Home = () => {
   
   useEffect(() => {
     if (!token) {
-      nav("/login");
+      navigate("/login");
     }
   }, [nav, token]);
 
