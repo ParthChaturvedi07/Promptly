@@ -29,7 +29,7 @@
 - ✅ Deployment integration for instant hosting.
 
 ## 🌍 Live Website
-[Check out Promptly Live](https://lnkd.in/gg5ru2_q)
+[Check out Promptly Live](https://promptly-ai.onrender.com/login)
 
 ## 💻 Installation & Setup
 
