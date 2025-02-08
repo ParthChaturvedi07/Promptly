@@ -41,7 +41,7 @@ Ensure you have the following installed:
 
 ### 📥 Clone the Repository
 ```sh
-git clone https://github.com/yourusername/promptly.git
+git clone https://github.com/ParthChaturvedi07/Promptly
 cd promptly
 ```
 
